@@ -1,6 +1,6 @@
-let current = new Date(); // 完整時間
-let todaysDate = current.getDate(); // 日期
-let currentYear = current.getFullYear(); // 年
+let current = new Date();                  // 完整時間
+let todaysDate = current.getDate();        // 日期
+let currentYear = current.getFullYear();   // 年
 let currentMonth = current.getMonth() + 1; // 月
 
 window.onload = function () {
